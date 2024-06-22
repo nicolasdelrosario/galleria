@@ -1,0 +1,57 @@
+body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	font-family: var(--font-noto-sans-georgian);
+	font-size: var(--text-base);
+	font-weight: var(--font-regular);
+	transition: all 0.3s ease-in-out;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+main {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: min(85%, 1200px);
+	min-height: calc(100vh - 96px);
+	margin: 0 auto;
+}
+
+input {
+	border: none;
+	outline: none;
+}
+/* Global Input number Ocultar flechas */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	appearance: none;
+	margin: 0;
+}
+/* SCROLL  */
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+	border-radius: 10px;
+	background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #b1b1b1;
+	transition: all 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+	opacity: 0.7;
+}
