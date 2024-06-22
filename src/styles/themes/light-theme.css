@@ -1,0 +1,6 @@
+:root[data-theme='light'] {
+	--background-color: var(--white);
+	--text-color: var(--darker-gray);
+	--span-color: var(--gray);
+	--background-icon: var(--black);
+}
